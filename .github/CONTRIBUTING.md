@@ -49,8 +49,8 @@ Pull-requests are tested automatically by a build-bot. Key things to know:
    * **Red**: The automated tests have failed.
    * **Green**: The automated tests have passed.
  * Code-style tests are executed first. If the code-style in this patch is inconsistent, the remaining tests will be skipped.
- * The primary tests may take 20-120 min to execute. It includes the following suites: `api_v3_AllTests`, `CRM_Core_AllTests`, `Civi\AllTests`, `civicrm-upgrade-test`, and `karma`.
- * Some tests are always skipped: `CRM_AllTests`, `WebTest_AllTests`
+ * The primary tests may take 20-120 min to execute. This includes the following suites: `api_v3_AllTests`, `CRM_Core_AllTests`, `Civi\AllTests`, `civicrm-upgrade-test`, and `karma`
+ * Some tests are run separately. These tests are not reported by the PR buildbot: `CRM_AllTests`, `WebTest_AllTests`
  * If the automated test fails, click on the red dot to investigate details. Check for information in:
    * The initial summary. Ordinarily, this will list test failures and error messages.
    * The console output. If the test-suite encountered a significant error (such as a PHP crash),
