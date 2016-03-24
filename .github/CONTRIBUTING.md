@@ -1,15 +1,15 @@
-CiviCRM is a community-driven open-source project.  It has a small,
+CiviCRM is a community-driven open-source project. It has a small,
 full-time "core team" which facilitates development and works on critical
-issues.  However, many improvements are driven by the active contributors.
+issues. However, many improvements are driven by the active contributors.
 
 This document provides important information about how to contribute.
 
 ## Release Process
 
-Releases are developed on a monthly cycle  At the start of the month, the
+Releases are developed on a monthly cycle. At the start of the month, the
 release-manager will review pending pull-requests, draft a list of
 quality-assurance activities, and invite contributors to participate in the
-release process.  As part of the release-process, several PRs will be
+release process. As part of the release-process, several PRs will be
 merged, and QA tasks will be divided among the contributors.
 
 You should be contacted in the next release cycle with more details.
