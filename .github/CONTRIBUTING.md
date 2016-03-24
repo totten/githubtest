@@ -25,8 +25,12 @@ TODO
 
 ## Testing
 
-Pull-requests will be subjected to automated testing. In particular:
+Pull-requests will be subjected to automated testing. However, there are
+several things to know:
 
+ * If you are a new contributor, the tests may be placed on hold pending a
+   review. One of the administrators will need to post a comment like
+   `jenkins, ok to test` or `jenkins, add to whitelist`.
  * The pull-request will have a colored dot indicating its status:
    * **Yellow**: The automated tests are running.
    * **Red**: The automated tests have failed.
