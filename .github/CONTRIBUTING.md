@@ -10,7 +10,7 @@ A few elements to include:
 
  * **CRM-XXXXX** - JIRA Issues - Every issue filed in [JIRA](http://issues.civicrm.org/)
    has a unique ID. A bot will setup crosslinks between the JIRA issue and PR.
- * **Description* - Provide a brief description of what the pull-request does.
+ * **Description** - Provide a brief description of what the pull-request does.
  * **(WIP)** - "Work in Progress" - If you don't feel that the changes are ready
    to be merged, include the `(WIP)` tag. This can be useful if you want to
    discuss the changes with other developers or get automated test results.
