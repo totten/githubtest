@@ -1,3 +1,9 @@
+CiviCRM is a community-driven open-source project.  It has a small,
+full-time "core team" which facilitates development and works on critical
+issues.  However, many improvements are driven by the active contributors.
+
+This document provides important information about how to contribute.
+
 ## Pull-Request Subjects
 
 The following are examples of good subjects:
@@ -19,17 +25,13 @@ A few elements to include:
    However, some changes are non-functional -- e.g. they cleanup the
    code-style, improve the comments, or improve the test-suite.
 
-## Review and Release Processes
-
-TODO
-
 ## Testing
 
 Pull-requests will be subjected to automated testing. However, there are
 several things to know:
 
  * If you are a new contributor, the tests may be placed on hold pending a
-   review. One of the administrators will need to post a comment like
+   cursory review. One of the administrators will post a comment like
    `jenkins, ok to test` or `jenkins, add to whitelist`.
  * The pull-request will have a colored dot indicating its status:
    * **Yellow**: The automated tests are running.
@@ -46,6 +48,17 @@ several things to know:
 
 For detailed discussion about these tests, see http://wiki.civicrm.org/confluence/display/CRMDOC/Testing
 
+## Release Process
+
+Releases are developed on a monthly basis.  At the start of the month, the
+release-manager will review pending pull-requests, draft a list of
+quality-assurance activities, and invite contributors to participate in the
+release process.  As part of the release-process, several PRs will be
+merged, and QA tasks will be divided among the contributors.
+
+You should be contacted at the start of the next release with more details.
+
 ## Updating a pull-request
 
-TODO
+TODO - Look for some existing documentation. Need to touch on
+simple follow-ups (add another commit) and rebasing.
