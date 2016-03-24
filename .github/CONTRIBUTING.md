@@ -25,7 +25,7 @@ When filing a pull-request, use a descriptive subject. These are good examples:
 A few elements to include:
 
  * **CRM-_XXXXX_** - This is a reference to the [CiviCRM issue tracker](http://issues.civicrm.org/)
-   (JIRA). A bot will setup crosslinks between the JIRA and Github.
+   (JIRA). A bot will setup crosslinks between JIRA and GitHub.
  * **Description** - Provide a brief description of what the pull-request does.
  * **(WIP)** - "Work in Progress" - If you are still developing a set of
    changes, it may be useful to submit a pull-request and flag it as
