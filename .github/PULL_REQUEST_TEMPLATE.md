@@ -14,4 +14,4 @@
    - [ ] This patch impacts user training by changing the user-interface. (CK-TRAINING)
    - [ ] This patch impacts downstream developers by changing APIs or hooks. (CK-API)
  - Quality Assurance
-   - (If there are any special QA tasks, list them here.)
+   - *(If there are any special QA tasks, list them here.)*

@@ -4,9 +4,19 @@ issues.  However, many improvements are driven by the active contributors.
 
 This document provides important information about how to contribute.
 
-## Pull-Request Subjects
+## Release Process
 
-The following are examples of good subjects:
+Releases are developed on a monthly cycle  At the start of the month, the
+release-manager will review pending pull-requests, draft a list of
+quality-assurance activities, and invite contributors to participate in the
+release process.  As part of the release-process, several PRs will be
+merged, and QA tasks will be divided among the contributors.
+
+You should be contacted in the next release cycle with more details.
+
+## Pull-Request Subject
+
+When filing a pull-request, use a descriptive subject. These are good examples:
 
  * `CRM-12345 - Fix Paypal IPNs when moon is at half-crescent (waxing)`
  * `(WIP) CRM-67890 - Refactor SMS callback endpoint`
@@ -14,12 +24,14 @@ The following are examples of good subjects:
 
 A few elements to include:
 
- * **CRM-XXXXX** - JIRA Issues - Every issue filed in [JIRA](http://issues.civicrm.org/)
-   has a unique ID. A bot will setup crosslinks between the JIRA issue and PR.
+ * **CRM-_XXXXX_** - This is a reference to the [CiviCRM issue tracker](http://issues.civicrm.org/)
+   (JIRA). A bot will setup crosslinks between the JIRA and Github.
  * **Description** - Provide a brief description of what the pull-request does.
- * **(WIP)** - "Work in Progress" - If you don't feel that the changes are ready
-   to be merged, include the `(WIP)` tag. This can be useful if you want to
-   discuss the changes with other developers or get automated test results.
+ * **(WIP)** - "Work in Progress" - If you are still developing a set of
+   changes, it may be useful to submit a pull-request and flag it as
+   `(WIP)`. This allows you to have discussion with other developers and
+   check test results. Once the change is ready, update the subject line
+   to remove `(WIP)`.
  * **(NFC)** - "Non-Functional Change" - Most patches are designed to
    change functionality (e.g. fix an error message or add a new button).
    However, some changes are non-functional -- e.g. they cleanup the
@@ -27,8 +39,7 @@ A few elements to include:
 
 ## Testing
 
-Pull-requests will be subjected to automated testing. However, there are
-several things to know:
+Pull-requests are tested automatically by a build-bot. Key things to know:
 
  * If you are a new contributor, the tests may be placed on hold pending a
    cursory review. One of the administrators will post a comment like
@@ -47,16 +58,6 @@ several things to know:
  * There are a handful of unit tests which are time-sensitive and which fail sporadically. See: https://forum.civicrm.org/index.php?topic=36964.0
 
 For detailed discussion about these tests, see http://wiki.civicrm.org/confluence/display/CRMDOC/Testing
-
-## Release Process
-
-Releases are developed on a monthly basis.  At the start of the month, the
-release-manager will review pending pull-requests, draft a list of
-quality-assurance activities, and invite contributors to participate in the
-release process.  As part of the release-process, several PRs will be
-merged, and QA tasks will be divided among the contributors.
-
-You should be contacted at the start of the next release with more details.
 
 ## Updating a pull-request
 
