@@ -7,12 +7,14 @@ This document provides important information about how to contribute.
 ## Release Process
 
 Releases are developed on a monthly cycle. At the start of the month, the
-release-manager will review pending pull-requests, draft a list of
-quality-assurance activities, and invite contributors to participate in the
-release process. As part of the release-process, several PRs will be
-merged, and QA tasks will be divided among the contributors.
+release-manager will send an invitation to developers who have open PRs,
+encouraging them to participate in the release-cycle. Participation
+provides a way to exchange feedback with other developers, get PRs
+merged, and ensure the next release works.
 
-You should be contacted in the next release cycle with more details.
+ * For a high-level overview of release process, see the
+   [Release Management README](https://github.com/civicrm/release-management/blob/master/README.md).
+ * For an example invitation, see the previous [invitation for the April-May 2016](https://github.com/civicrm/release-management/issues/1).
 
 ## Pull-Request Subject
 
@@ -48,16 +50,16 @@ Pull-requests are tested automatically by a build-bot. Key things to know:
    * **Yellow**: The automated tests are running.
    * **Red**: The automated tests have failed.
    * **Green**: The automated tests have passed.
- * Code-style tests are executed first. If the code-style in this patch is inconsistent, the remaining tests will be skipped.
- * The primary tests may take 20-120 min to execute. This includes the following suites: `api_v3_AllTests`, `CRM_Core_AllTests`, `Civi\AllTests`, `civicrm-upgrade-test`, and `karma`
- * Some tests are run separately. These tests are not reported by the PR buildbot: `CRM_AllTests`, `WebTest_AllTests`
  * If the automated test fails, click on the red dot to investigate details. Check for information in:
    * The initial summary. Ordinarily, this will list test failures and error messages.
    * The console output. If the test-suite encountered a significant error (such as a PHP crash),
      the key details will only appear in the console.
+ * Code-style tests are executed first. If the code-style in this patch is inconsistent, the remaining tests will be skipped.
+ * The primary tests may take 20-120 min to execute. This includes the following suites: `api_v3_AllTests`, `CRM_Core_AllTests`, `Civi\AllTests`, `civicrm-upgrade-test`, and `karma`
+ * Some tests are run separately. These tests are not reported by the PR buildbot: `CRM_AllTests`, `WebTest_AllTests`
  * There are a handful of unit tests which are time-sensitive and which fail sporadically. See: https://forum.civicrm.org/index.php?topic=36964.0
 
-For detailed discussion about these tests, see http://wiki.civicrm.org/confluence/display/CRMDOC/Testing
+For detailed discussion about automated tests, see http://wiki.civicrm.org/confluence/display/CRMDOC/Testing
 
 ## Updating a pull-request
 
