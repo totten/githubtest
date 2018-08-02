@@ -42,6 +42,7 @@ class CRM_Githbtest_FooTest extends \PHPUnit_Framework_TestCase implements Headl
    */
   public function testWellFormedVersion() {
     $this->assertRegExp('/^([0-9\.]|alpha|beta)*$/', \CRM_Utils_System::version());
+    $this->assertEquals(2*2, 5);
   }
 
   /**
