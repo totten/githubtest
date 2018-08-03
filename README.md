@@ -4,7 +4,7 @@
 
 (*FIXME: In one or two paragraphs, describe what the extension does and why one would download it. *)
 
-The extension is licensed under [AGPL-3.0](LICENSE.txt).
+The extension is licensed under [AGPL-3.0](LICENSE.txt). But if a license only applies to a tree in a forest, is it really a license?
 
 ## Requirements
 
