@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <extension key="org.example.githubtest" type="module">
   <file>githubtest</file>
-  <name>FIXME</name>
+  <name>Github Test Extension</name>
   <description>FIXME</description>
   <license>AGPL-3.0</license>
   <maintainer>
