@@ -2,7 +2,7 @@
 <extension key="org.example.githubtest" type="module">
   <file>githubtest</file>
   <name>Github Test Extension</name>
-  <description>FIXME</description>
+  <description>This is just a test of a test system.</description>
   <license>AGPL-3.0</license>
   <maintainer>
     <author>Tim Otten</author>
