@@ -48,6 +48,7 @@ class CRM_Githbtest_FooTest extends \PHPUnit_Framework_TestCase implements Headl
    * Example: Test that we're using a fake CMS.
    */
   public function testWellFormedUF() {
+    $this->assertEquals(99, 'Ninety-nine');
     $this->assertEquals('UnitTests', CIVICRM_UF);
   }
 
