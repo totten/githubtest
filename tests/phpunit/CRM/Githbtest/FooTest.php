@@ -29,11 +29,11 @@ class CRM_Githbtest_FooTest extends \PHPUnit\Framework\TestCase implements Headl
       ->apply();
   }
 
-  public function setUp() {
+  public function setUp(): void {
     parent::setUp();
   }
 
-  public function tearDown() {
+  public function tearDown(): void {
     parent::tearDown();
   }
 
