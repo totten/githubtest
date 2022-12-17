@@ -23,5 +23,6 @@
   <comments>This is a new, undeveloped module</comments>
   <civix>
     <namespace>CRM/Githubtest</namespace>
+    <format>22.10.0</format>
   </civix>
 </extension>
