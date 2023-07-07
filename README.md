@@ -10,6 +10,7 @@ The extension is licensed under [AGPL-3.0](LICENSE.txt). But if a license only a
 
 * PHP v5.4+
 * CiviCRM (*FIXME: Version number*)
+* Beer v3.5+
 
 ## Installation (Web UI)
 
